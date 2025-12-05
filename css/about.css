@@ -1,0 +1,24 @@
+.about-section {
+  padding: 100px 5%;
+  background: #fce4ec;
+}
+
+.about-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.about-img {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 105, 135, 0.3);
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
