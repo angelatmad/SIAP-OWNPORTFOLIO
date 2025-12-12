@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El's Portfolio</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/hero-banner.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/button.css" />
+  <link rel="stylesheet" href="css/modal.css" />
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">EL’S PORTFOLIO</div>
+    <ul>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero-banner">
+    <img src="images/el.jpg" class="hero-bg-full" /> 
+    <div class="hero-overlay"></div> 
+    
+    <div class="hero-content-center">
+      <a href="#about" class="btn">EXPLORE MORE</a>
+    </div>
+
+    <h2 class="tagline-top">BSIT STUDENT</h2>
+    <p class="tagline-bottom">ASPIRING FRONT-END DEVELOPER</p> 
+  </section>
+
+<section id="about" class="about-section">
+    <div class="about-bg-container">
+        <img src="images/angel.jpg" class="about-bg-img" />
+        <div class="about-bg-overlay"></div>
+    </div>
+    
+    <h2>ABOUT ME</h2>
+    <div class="about-container">
+      <img src="images/about.jpg" class="about-img" />
+      <div class="about-text">
+       <p>I am a dedicated BSIT student and an aspiring Front-End Developer with a strong passion for crafting clean, modern, and minimalist design. I specialize in building simple, functional websites using core technologies: <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+<p>Driven by continuous improvement, I am actively expanding my technical toolkit to include visual prototyping in <strong>Figma</strong> and exploring backend logic with <strong>PHP</strong> and <strong>Java</strong>. Beyond the code, my creative pursuits—including drawing, singing, and a unique appreciation for the color <strong>pink</strong>—fuel my attention to detail and design aesthetic in every project.</p>
+      </div>
+    </div>
+  </section>
+
+<section id="projects" class="projects-section">
+    <h2>MY PROJECTS</h2>
+
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <img src="images/k-cinema.png" class="project-img" alt="K-Cinema Website"/>
+        <div class="project-info">
+          <h3>(PT) K-Cinema Website</h3>
+          <p>A web hub featuring a dramatic red and white design, promoting Korean action, drama, thriller, and romance films, offering call-to-action buttons to browse content.</p>
+          <div class="project-links">
+            <a href="https://angelatmad.github.io/k-cinema/" target="_blank" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="images/portfolio.png" class="project-img" alt="Portfolio"/>
+        <div class="project-info">
+          <h3>(PT) Personal Portfolio</h3>
+          <p>The administrative login portal for this website. It is a minimalist screen featuring a circular profile placeholder and a secure form for 'Username' and 'Password' fields, designed with a clean aesthetic and soft pink color scheme.</p>
+          <div class="project-links">
+             <a href="https://angelatmad.github.io/El-PORTFOLIO/" target="_blank" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/shrinking.png" class="project-img" alt="Shrinking Giant"/>
+        <div class="project-info">
+          <h3>SIAPP - Shrinking Giant (GROUP 2)</h3>
+          <p>A clean, modern user interface design created in Figma, focusing on responsive layouts and user-friendly navigation for a mobile application concept.</p>
+          <div class="project-links">
+            <a href="https://www.figma.com/proto/FJpyX2dh8F0ZIUSelnlhHx/SOCIAL-ISSUES-GROUP-2?" target="_blank" class="project-btn">Figma</a>
+            <button class="project-btn btn-members" data-modal-target="#modal-uiux">Members</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="images/Info.png" class="project-img" alt="Infographics"/>
+        <div class="project-info">
+          <h3>SIAPP - Infographics (GROUP 3)</h3>
+          <p>A Figma design report analyzing the digital divide in education. The project proposes accessible UI/UX solutions and tools, focusing on optimizing educational platforms for low-bandwidth and mobile-first environments to ensure equitable learning.</p>
+          <div class="project-links">
+            <a href="https://angelatmad.github.io/SOCIALISSUES-GROUP3/" target="_blank" class="project-btn">GitHub</a>
+            <a href="https://www.figma.com/proto/7e27mF1G4bVk6GRnulos2f/SIAP-FIGMA?" target="_blank" class="project-btn">Figma</a>
+            <button class="project-btn btn-members" data-modal-target="#modal-portfolio">Members</button>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="project-card">
+        <img src="images/researchpart1.png" class="project-img" alt="Reseach Presentation"/>
+        <div class="project-info">
+          <h3>SIAPP - Research Presentation (GROUP 5)</h3>
+          <p>A Figma presentation detailing a proposed system for enhancing small business operations. The design focuses on integrating a centralized Google Sheets database with a custom front-end UI for streamlined real-time sales, inventory, and analytics tracking.</p>
+          <div class="project-links">
+            <a href="https://www.figma.com/proto/b7dVmulXvr4gOFx8c2oofd/SIAPP-PRESENTATION?" target="_blank" class="project-btn">Figma</a>
+            <button class="project-btn btn-members" data-modal-target="#modal-website">Members</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="images/system.png" class="project-img" alt="Research System"/>
+        <div class="project-info">
+          <h3>SIAPP - Reseach System (GROUP 5)</h3>
+          <p>The Sales and Inventory Application (SIAPP) is a complete system developed for Sari-Sari Stores like Violeta Store. We built this system to simplify inventory tracking and sales management, offering real-time monitoring and data-driven insights to enhance business operations.</p>
+          <div class="project-links">
+            <a href="https://angelatmad.github.io/SIAPP-LANDING-PAGE-GROUP-5/" target="_blank" class="project-btn">GitHub</a>
+            <a href="https://www.figma.com/proto/azdQGw87ysjczuYQelz5DR/SIAPP-LANDING-PAGE?" target="_blank" class="project-btn">Figma</a>
+            <button class="project-btn btn-members" data-modal-target="#modal-webapp">Members</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="modal" id="modal-uiux">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3>Shrinking Giant (GROUP 2)</h3>
+      <ul>
+        <li>Ando , Danfred</li>
+        <li>Angco , Angel Mae</li>
+        <li>Bongo , Mark John</li>
+        <li>Cabahug , John Carl</li>
+        <li>Fernandez , Charles David</li>
+        <li>Namoc , Jusper</li>
+        <li>Olila , Paul John</li>
+        <li>Partusa , Ed Jassen</li>
+        <li>Reponte , Jevin Bryan</li>
+        <li>Villagracia , Rexon</li>
+
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-portfolio">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3>Infographics (GROUP 3)</h3>
+      <ul>
+        <li>Amba , John Nino</li>
+        <li>Ando , Wayne Andrei</li>
+        <li>Angco , Angel Mae</li>
+        <li>Benolirao , Jan Neruda</li>
+        <li>Bentulan , Cesar Ian</li>
+        <li>Casinio , Jerel</li>
+        <li>Dawe , Jade</li>
+        <li>Fernandez , Charles David</li>
+        <li>Genabe , Juvert</li>
+        <li>Olila , Paul John</li>
+        <li>Sumayang , Ivy Jane</li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-website">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3>Research Presentation (GROUP 5)</h3>
+      <ul>
+        <li>Amba , John Nino</li>
+        <li>Ando , Wayne Andrei</li>
+        <li>Angco , Angel Mae</li>
+        <li>Benolirao , Jan Neruda</li>
+        <li>Dawe , Jade</li>
+        <li>Fernandez , Charles David</li>
+        <li>Genabe , Juvert</li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-webapp">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3>Research System (GROUP 5)</h3>
+      <ul>
+        <li>Amba , John Nino</li>
+        <li>Ando , Wayne Andrei</li>
+        <li>Angco , Angel Mae</li>
+        <li>Benolirao , Jan Neruda</li>
+        <li>Dawe , Jade</li>
+        <li>Fernandez , Charles David</li>
+        <li>Genabe , Juvert</li>        
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<section id="contact" class="contact-section">
+    <img src="images/contact.jpeg" class="hero-bg-full" alt="Contact Section Background"/> 
+    <div class="hero-overlay"></div> 
+    
+    <h2>CONTACT ME</h2>
+    <div class="contact-container">
+
+      <div class="contact-info">
+        <p><strong>SOCIAL ACCOUNTS</strong></p>
+
+        <p>
+          <a href="https://www.facebook.com/gelae15" target="_blank">Facebook : gelae15</a>
+        </p>
+
+        <p>
+          <a href="https://instagram.com/angelangco_" target="_blank">Instagram : angelangco_</a>
+        </p>
+
+        <p>
+          <a href="mailto:eanaxian@gmail.com">Email : eanaxian@gmail.com</a>
+        </p>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button class="btn-submit" type="submit">SEND</button>
+      </form>
+
+    </div>
+  </section>
+
+  
+<div class="modal" id="modal-siapp">
+    </div>
+
+  <script src="script.js"></script> 
+
+</body>
+</html>
